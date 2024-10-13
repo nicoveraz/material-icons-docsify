@@ -2,7 +2,7 @@
 
 This plugin allows you to easily add Material Icons to your Docsify-powered documentation using a simple and intuitive syntax.
 
-> Syntax based on  https://github.com/erickjx/docsify-material-icons/
+> Syntax inspired by  https://github.com/erickjx/docsify-material-icons/
 
 ## Features
 
