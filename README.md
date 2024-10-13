@@ -1,6 +1,6 @@
 # Material Icons Plugin for Docsify
 
-This plugin allows you to easily add Material Icons to your Docsify-powered documentation using a simple and intuitive syntax.
+This plugin allows you to easily add Material Icons to your Docsify-powered documentation.
 
 > Syntax inspired by  https://github.com/erickjx/docsify-material-icons/
 
@@ -15,25 +15,27 @@ This plugin allows you to easily add Material Icons to your Docsify-powered docu
 
 ## Installation
 
-1. Download the `material-icons-plugin.js` file and place it in your Docsify project directory.
-
-2. Add the following script tag to your `index.html` file, after the Docsify script:
+1. Add the following script tag to your `index.html` file, after the Docsify script:
 
    ```html
-   <script src="path/to/material-icons-plugin.js"></script>
+   <script src="https://cdn.jsdelivr.net/gh/nicoveraz/material-icons-docsify@main/material-icons-docsify.js"></script>
    ```
 
-   Replace `path/to/material-icons-plugin.js` with the actual path where you've saved the plugin file.
-
-3. Include the Material Icons font in your `index.html`:
+2. Include the Material Icons font in your `index.html`:
 
    ```html
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
    ```
 
+That's it! You don't need to download or host the plugin file yourself.
+
 ## Usage
 
-You can use the following syntax in your Markdown files to add Material Icons:
+You can use either inline syntax or comment-based syntax to add Material Icons to your Markdown files.
+
+### Inline Syntax
+
+Use the following syntax directly in your Markdown:
 
 ```
 :mi icon_name:
@@ -44,7 +46,7 @@ You can use the following syntax in your Markdown files to add Material Icons:
 :mi-outlined color_name icon_name:
 ```
 
-### Examples
+#### Examples (Inline Syntax)
 
 1. Basic icon: `:mi home:`
 2. Outlined icon: `:mi-outlined home:`
